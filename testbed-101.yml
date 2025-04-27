@@ -1,0 +1,20 @@
+testbed:
+  credentials:
+    default:
+      username: cisco
+      password: cisco
+devices:
+  CE-61:
+    os: iosxe
+    type: CSR1000 iosxe DEVNETEXPERT
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.1.10.61
+  CE-62:
+    os: iosxe
+    type: CSR1000 iosxe DEVNETEXPERT
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.1.10.62
