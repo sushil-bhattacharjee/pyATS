@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<jobSummary archiveFilename="/home/sushil/.pyats/archive/25-04/demo-job.2025Apr28_22:30:41.544605.zip" atsTreePath="/home/sushil/pyATS/.VpyATS">
+  <jobName>demo-job</jobName>
+  <image/>
+  <aborted>0</aborted>
+  <passed>1</passed>
+  <passx>0</passx>
+  <failed>3</failed>
+  <blocked>0</blocked>
+  <skipped>0</skipped>
+  <errored>0</errored>
+  <unknown>0</unknown>
+  <never_ran>0</never_ran>
+  <total>4</total>
+  <success_rate>25.0</success_rate>
+  <starttime>2025-04-28T22:30:44</starttime>
+  <stoptime>2025-04-28T22:30:44</stoptime>
+  <runtime>00:00:00</runtime>
+  <testbed>testbed</testbed>
+  <release/>
+  <submitter>sushil</submitter>
+  <user>sushil</user>
+  <debugProfile>0</debugProfile>
+  <host>sushil</host>
+</jobSummary>

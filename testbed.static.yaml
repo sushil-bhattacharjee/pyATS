@@ -1,0 +1,20 @@
+testbed:
+  credentials:
+    default:
+      username: cisco
+      password: cisco
+devices:
+  MI6-63:
+    os: iosxe
+    type: CE rotuer iosxe DEVNETEXPERT LAB
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.1.10.63
+  CE-61:
+    os: iosxe
+    type: CE rotuer iosxe DEVNETEXPERT LAB
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.1.10.61

@@ -1,0 +1,2066 @@
+{
+  "version": "3.4",
+  "report": {
+    "job_type": "easypy",
+    "suite_name": "demo-job",
+    "type": "TestSuite",
+    "id": "demo-job.2025Apr28_22:30:41.544605",
+    "fullid": "demo-job.2025Apr28_22:30:41.544605",
+    "idlist": ["demo-job.2025Apr28_22:30:41.544605"],
+    "name": "demo-job",
+    "starttime": "2025-04-28 22:30:44.003557+10:00",
+    "stoptime": "2025-04-28 22:30:44.207147+10:00",
+    "runtime": 0.20359,
+    "cli": "/home/sushil/pyATS/.VpyATS/bin/pyats run job demo-job.py --testbed-file testbed.yml",
+    "jobfile": "/home/sushil/pyATS/demo-job.py",
+    "jobfile_hash": "ec9e8a84e38da6ac2394360a72f8197441abbddcc1646821faf6c716583cd90f",
+    "xref": {
+      "git": {
+        "repo": "github.com/sushil-bhattacharjee/pyATS",
+        "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+        "branch": "main",
+        "file": "demo-job.py"
+      }
+    },
+    "pyatspath": "/home/sushil/pyATS/.VpyATS",
+    "pyatsversion": "25.3",
+    "host": "sushil",
+    "submitter": "sushil",
+    "user": "sushil",
+    "archivefile": "/home/sushil/.pyats/archive/25-04/demo-job.2025Apr28_22:30:41.544605.zip",
+    "summary": {
+      "passed": 1,
+      "passx": 0,
+      "failed": 3,
+      "errored": 0,
+      "aborted": 0,
+      "blocked": 0,
+      "skipped": 0,
+      "total": 4,
+      "success_rate": 25.0
+    },
+    "pluginsummary": {
+      "passed": 0,
+      "passx": 0,
+      "failed": 0,
+      "errored": 0,
+      "aborted": 0,
+      "blocked": 0,
+      "skipped": 0,
+      "total": 0,
+      "success_rate": 0.0
+    },
+    "result": { "value": "failed" },
+    "extra": {
+      "testbed": "testbed",
+      "request_id": null,
+      "backend": null,
+      "suite_id": "github.com/sushil-bhattacharjee/pyATS:demo-job.py"
+    },
+    "totaltasks": 1,
+    "tasks": [
+      {
+        "type": "Task",
+        "id": "Task-1",
+        "fullid": "Task-1",
+        "idlist": ["Task-1"],
+        "name": "demo2",
+        "script_type": "aetest",
+        "starttime": "2025-04-28 22:30:44.058618+10:00",
+        "stoptime": "2025-04-28 22:30:44.175869+10:00",
+        "runtime": 0.117251,
+        "logfile": "TaskLog.Task-1",
+        "testscript": "/home/sushil/pyATS/demo2.py",
+        "testscript_hash": "65f091dbbe7c1e951d0543bd838cb6e88968e96ca1f82b9a01e0ca59d9f54d8a",
+        "xref": {
+          "git": {
+            "repo": "github.com/sushil-bhattacharjee/pyATS",
+            "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+            "branch": "main",
+            "file": "demo2.py"
+          }
+        },
+        "summary": {
+          "passed": 1,
+          "passx": 0,
+          "failed": 3,
+          "errored": 0,
+          "aborted": 0,
+          "blocked": 0,
+          "skipped": 0,
+          "total": 4,
+          "success_rate": 25.0
+        },
+        "pluginsummary": {
+          "passed": 0,
+          "passx": 0,
+          "failed": 0,
+          "errored": 0,
+          "aborted": 0,
+          "blocked": 0,
+          "skipped": 0,
+          "total": 0,
+          "success_rate": 0.0
+        },
+        "result": { "value": "failed" },
+        "sections": [
+          {
+            "type": "CommonSetup",
+            "id": "common_setup",
+            "fullid": "Task-1.common_setup",
+            "idlist": ["Task-1", "common_setup"],
+            "name": "common_setup",
+            "starttime": "2025-04-28 22:30:44.068558+10:00",
+            "stoptime": "2025-04-28 22:30:44.078283+10:00",
+            "runtime": 0.009725,
+            "xref": {
+              "file": "/home/sushil/pyATS/demo2.py",
+              "line": 8,
+              "source_hash": "c73c59a74f8857684053abbb5a5d6442f09e0702f9672371c3735ff8c286d062",
+              "git": {
+                "repo": "github.com/sushil-bhattacharjee/pyATS",
+                "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                "branch": "main",
+                "file": "demo2.py"
+              }
+            },
+            "logs": {
+              "file": "TaskLog.Task-1",
+              "begin": 0,
+              "begin_lines": 0,
+              "size": 1370,
+              "size_lines": 9
+            },
+            "result": { "value": "passed" },
+            "sections": [
+              {
+                "type": "Subsection",
+                "id": "setup1",
+                "fullid": "Task-1.common_setup.setup1",
+                "idlist": ["Task-1", "common_setup", "setup1"],
+                "name": "setup1",
+                "starttime": "2025-04-28 22:30:44.075286+10:00",
+                "stoptime": "2025-04-28 22:30:44.076946+10:00",
+                "runtime": 0.00166,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 9,
+                  "source_hash": "fdbe2c7802863c30b1fff8f826cb092b73cae204336a095db69d50a760049bd4",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 510,
+                  "begin_lines": 3,
+                  "size": 742,
+                  "size_lines": 5
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              }
+            ],
+            "health_summary": {
+              "passed": 0,
+              "passx": 0,
+              "failed": 0,
+              "errored": 0,
+              "aborted": 0,
+              "blocked": 0,
+              "skipped": 0,
+              "total": 0,
+              "success_rate": 0.0
+            }
+          },
+          {
+            "type": "Testcase",
+            "id": "HelloWorldTest[color=RED]",
+            "fullid": "Task-1.HelloWorldTest[color=RED]",
+            "idlist": ["Task-1", "HelloWorldTest[color=RED]"],
+            "name": "HelloWorldTest[color=RED]",
+            "testcase_type": "aetest",
+            "testcase_signature": "6f872f55fd3d5a564e3d99e1230d864a884bd3ee77fcbb19ef1c79b15fd62041",
+            "starttime": "2025-04-28 22:30:44.086997+10:00",
+            "stoptime": "2025-04-28 22:30:44.127529+10:00",
+            "runtime": 0.040532,
+            "xref": {
+              "file": "/home/sushil/pyATS/demo2.py",
+              "line": 14,
+              "source_hash": "6b39d6fd21a3a040034e9a2f2f63b215bfc675a4d5c914c7cba8c446e36bc5e5",
+              "git": {
+                "repo": "github.com/sushil-bhattacharjee/pyATS",
+                "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                "branch": "main",
+                "file": "demo2.py"
+              }
+            },
+            "logs": {
+              "file": "TaskLog.Task-1",
+              "begin": 1370,
+              "begin_lines": 9,
+              "size": 15430,
+              "size_lines": 104
+            },
+            "result": { "value": "failed" },
+            "sections": [
+              {
+                "type": "TestSection",
+                "id": "test1",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test1",
+                "idlist": ["Task-1", "HelloWorldTest[color=RED]", "test1"],
+                "name": "test1",
+                "starttime": "2025-04-28 22:30:44.093586+10:00",
+                "stoptime": "2025-04-28 22:30:44.094798+10:00",
+                "runtime": 0.001212,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 16,
+                  "source_hash": "d4a6dc54a3198cfc8bd84bd2a5a39decb69b80e9fd393261fed7d7be3c98020d",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 1886,
+                  "begin_lines": 12,
+                  "size": 741,
+                  "size_lines": 5
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test2",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test2",
+                "idlist": ["Task-1", "HelloWorldTest[color=RED]", "test2"],
+                "name": "test2",
+                "starttime": "2025-04-28 22:30:44.099594+10:00",
+                "stoptime": "2025-04-28 22:30:44.101441+10:00",
+                "runtime": 0.001847,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 22,
+                  "source_hash": "9a19cf6f31d8f1057a8396ff805f0489546e2af80bf929d2502d94dfaf51c981",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 2627,
+                  "begin_lines": 17,
+                  "size": 1408,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test2",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 24, in test2\n    assert \"A\" == \"B\"\n           ^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test2:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 24, in test2\n    assert \"A\" == \"B\"\n           ^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=3]",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test3[word_length=3]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=RED]",
+                  "test3[word_length=3]"
+                ],
+                "name": "test3[word_length=3]",
+                "starttime": "2025-04-28 22:30:44.107459+10:00",
+                "stoptime": "2025-04-28 22:30:44.108915+10:00",
+                "runtime": 0.001456,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 4035,
+                  "begin_lines": 27,
+                  "size": 650,
+                  "size_lines": 4
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=4]",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test3[word_length=4]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=RED]",
+                  "test3[word_length=4]"
+                ],
+                "name": "test3[word_length=4]",
+                "starttime": "2025-04-28 22:30:44.109752+10:00",
+                "stoptime": "2025-04-28 22:30:44.110646+10:00",
+                "runtime": 0.000894,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 4685,
+                  "begin_lines": 31,
+                  "size": 1468,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=4]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=4]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=5]",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test3[word_length=5]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=RED]",
+                  "test3[word_length=5]"
+                ],
+                "name": "test3[word_length=5]",
+                "starttime": "2025-04-28 22:30:44.111318+10:00",
+                "stoptime": "2025-04-28 22:30:44.112209+10:00",
+                "runtime": 0.000891,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 6153,
+                  "begin_lines": 41,
+                  "size": 1468,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=5]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=5]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=6]",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test3[word_length=6]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=RED]",
+                  "test3[word_length=6]"
+                ],
+                "name": "test3[word_length=6]",
+                "starttime": "2025-04-28 22:30:44.112773+10:00",
+                "stoptime": "2025-04-28 22:30:44.113602+10:00",
+                "runtime": 0.000829,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 7621,
+                  "begin_lines": 51,
+                  "size": 1468,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=6]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=6]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test4",
+                "fullid": "Task-1.HelloWorldTest[color=RED].test4",
+                "idlist": ["Task-1", "HelloWorldTest[color=RED]", "test4"],
+                "name": "test4",
+                "starttime": "2025-04-28 22:30:44.118692+10:00",
+                "stoptime": "2025-04-28 22:30:44.127079+10:00",
+                "runtime": 0.008387,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 30,
+                  "source_hash": "e8444d2c4c65882cad448b458547300246b737337d4e45fa5a7e3165e79a471f",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 9089,
+                  "begin_lines": 61,
+                  "size": 7570,
+                  "size_lines": 51
+                },
+                "result": { "value": "failed" },
+                "sections": [
+                  {
+                    "type": "Step",
+                    "id": "STEP 1",
+                    "fullid": "Task-1.HelloWorldTest[color=RED].test4.STEP 1",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=RED]",
+                      "test4",
+                      "STEP 1"
+                    ],
+                    "name": "Is the letter A in RED",
+                    "starttime": "2025-04-28 22:30:44.120145+10:00",
+                    "stoptime": "2025-04-28 22:30:44.121109+10:00",
+                    "runtime": 0.000964,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 9605,
+                      "begin_lines": 64,
+                      "size": 1440,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 1: Is the letter A in RED",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 1: Is the letter A in RED:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 2",
+                    "fullid": "Task-1.HelloWorldTest[color=RED].test4.STEP 2",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=RED]",
+                      "test4",
+                      "STEP 2"
+                    ],
+                    "name": "Is the letter B in RED",
+                    "starttime": "2025-04-28 22:30:44.121803+10:00",
+                    "stoptime": "2025-04-28 22:30:44.122455+10:00",
+                    "runtime": 0.000652,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 11045,
+                      "begin_lines": 74,
+                      "size": 1440,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 2: Is the letter B in RED",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 2: Is the letter B in RED:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 3",
+                    "fullid": "Task-1.HelloWorldTest[color=RED].test4.STEP 3",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=RED]",
+                      "test4",
+                      "STEP 3"
+                    ],
+                    "name": "Is the letter C in RED",
+                    "starttime": "2025-04-28 22:30:44.123285+10:00",
+                    "stoptime": "2025-04-28 22:30:44.123927+10:00",
+                    "runtime": 0.000642,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 12485,
+                      "begin_lines": 84,
+                      "size": 1440,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 3: Is the letter C in RED",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 3: Is the letter C in RED:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 4",
+                    "fullid": "Task-1.HelloWorldTest[color=RED].test4.STEP 4",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=RED]",
+                      "test4",
+                      "STEP 4"
+                    ],
+                    "name": "Is the letter D in RED",
+                    "starttime": "2025-04-28 22:30:44.124419+10:00",
+                    "stoptime": "2025-04-28 22:30:44.124868+10:00",
+                    "runtime": 0.000449,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 13925,
+                      "begin_lines": 94,
+                      "size": 653,
+                      "size_lines": 4
+                    },
+                    "result": { "value": "passed" },
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 5",
+                    "fullid": "Task-1.HelloWorldTest[color=RED].test4.STEP 5",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=RED]",
+                      "test4",
+                      "STEP 5"
+                    ],
+                    "name": "Is the letter E in RED",
+                    "starttime": "2025-04-28 22:30:44.125432+10:00",
+                    "stoptime": "2025-04-28 22:30:44.125836+10:00",
+                    "runtime": 0.000404,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 14578,
+                      "begin_lines": 98,
+                      "size": 659,
+                      "size_lines": 4
+                    },
+                    "result": { "value": "passed" },
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  }
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              }
+            ],
+            "health_result": { "value": "passed" },
+            "health_summary": {
+              "passed": 0,
+              "passx": 0,
+              "failed": 0,
+              "errored": 0,
+              "aborted": 0,
+              "blocked": 0,
+              "skipped": 0,
+              "total": 0,
+              "success_rate": 0.0
+            }
+          },
+          {
+            "type": "Testcase",
+            "id": "HelloWorldTest[color=GREEN]",
+            "fullid": "Task-1.HelloWorldTest[color=GREEN]",
+            "idlist": ["Task-1", "HelloWorldTest[color=GREEN]"],
+            "name": "HelloWorldTest[color=GREEN]",
+            "testcase_type": "aetest",
+            "testcase_signature": "6f872f55fd3d5a564e3d99e1230d864a884bd3ee77fcbb19ef1c79b15fd62041",
+            "starttime": "2025-04-28 22:30:44.128972+10:00",
+            "stoptime": "2025-04-28 22:30:44.149720+10:00",
+            "runtime": 0.020748,
+            "xref": {
+              "file": "/home/sushil/pyATS/demo2.py",
+              "line": 14,
+              "source_hash": "6b39d6fd21a3a040034e9a2f2f63b215bfc675a4d5c914c7cba8c446e36bc5e5",
+              "git": {
+                "repo": "github.com/sushil-bhattacharjee/pyATS",
+                "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                "branch": "main",
+                "file": "demo2.py"
+              }
+            },
+            "logs": {
+              "file": "TaskLog.Task-1",
+              "begin": 16800,
+              "begin_lines": 113,
+              "size": 16418,
+              "size_lines": 110
+            },
+            "result": { "value": "failed" },
+            "sections": [
+              {
+                "type": "TestSection",
+                "id": "test1",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test1",
+                "idlist": ["Task-1", "HelloWorldTest[color=GREEN]", "test1"],
+                "name": "test1",
+                "starttime": "2025-04-28 22:30:44.130011+10:00",
+                "stoptime": "2025-04-28 22:30:44.131409+10:00",
+                "runtime": 0.001398,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 16,
+                  "source_hash": "d4a6dc54a3198cfc8bd84bd2a5a39decb69b80e9fd393261fed7d7be3c98020d",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 17322,
+                  "begin_lines": 116,
+                  "size": 751,
+                  "size_lines": 5
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test2",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test2",
+                "idlist": ["Task-1", "HelloWorldTest[color=GREEN]", "test2"],
+                "name": "test2",
+                "starttime": "2025-04-28 22:30:44.132365+10:00",
+                "stoptime": "2025-04-28 22:30:44.134238+10:00",
+                "runtime": 0.001873,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 22,
+                  "source_hash": "9a19cf6f31d8f1057a8396ff805f0489546e2af80bf929d2502d94dfaf51c981",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 18073,
+                  "begin_lines": 121,
+                  "size": 1427,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test2",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 24, in test2\n    assert \"A\" == \"B\"\n           ^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test2:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 24, in test2\n    assert \"A\" == \"B\"\n           ^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=3]",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test3[word_length=3]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=GREEN]",
+                  "test3[word_length=3]"
+                ],
+                "name": "test3[word_length=3]",
+                "starttime": "2025-04-28 22:30:44.135285+10:00",
+                "stoptime": "2025-04-28 22:30:44.137292+10:00",
+                "runtime": 0.002007,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 19500,
+                  "begin_lines": 131,
+                  "size": 1487,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=3]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=3]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=4]",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test3[word_length=4]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=GREEN]",
+                  "test3[word_length=4]"
+                ],
+                "name": "test3[word_length=4]",
+                "starttime": "2025-04-28 22:30:44.137840+10:00",
+                "stoptime": "2025-04-28 22:30:44.138685+10:00",
+                "runtime": 0.000845,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 20987,
+                  "begin_lines": 141,
+                  "size": 1487,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=4]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=4]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=5]",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test3[word_length=5]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=GREEN]",
+                  "test3[word_length=5]"
+                ],
+                "name": "test3[word_length=5]",
+                "starttime": "2025-04-28 22:30:44.139252+10:00",
+                "stoptime": "2025-04-28 22:30:44.139795+10:00",
+                "runtime": 0.000543,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 22474,
+                  "begin_lines": 151,
+                  "size": 657,
+                  "size_lines": 4
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=6]",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test3[word_length=6]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=GREEN]",
+                  "test3[word_length=6]"
+                ],
+                "name": "test3[word_length=6]",
+                "starttime": "2025-04-28 22:30:44.140221+10:00",
+                "stoptime": "2025-04-28 22:30:44.141165+10:00",
+                "runtime": 0.000944,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 23131,
+                  "begin_lines": 155,
+                  "size": 1487,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=6]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=6]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test4",
+                "fullid": "Task-1.HelloWorldTest[color=GREEN].test4",
+                "idlist": ["Task-1", "HelloWorldTest[color=GREEN]", "test4"],
+                "name": "test4",
+                "starttime": "2025-04-28 22:30:44.141761+10:00",
+                "stoptime": "2025-04-28 22:30:44.149390+10:00",
+                "runtime": 0.007629,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 30,
+                  "source_hash": "e8444d2c4c65882cad448b458547300246b737337d4e45fa5a7e3165e79a471f",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 24618,
+                  "begin_lines": 165,
+                  "size": 8457,
+                  "size_lines": 57
+                },
+                "result": { "value": "failed" },
+                "sections": [
+                  {
+                    "type": "Step",
+                    "id": "STEP 1",
+                    "fullid": "Task-1.HelloWorldTest[color=GREEN].test4.STEP 1",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=GREEN]",
+                      "test4",
+                      "STEP 1"
+                    ],
+                    "name": "Is the letter A in GREEN",
+                    "starttime": "2025-04-28 22:30:44.142478+10:00",
+                    "stoptime": "2025-04-28 22:30:44.143332+10:00",
+                    "runtime": 0.000854,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 25140,
+                      "begin_lines": 168,
+                      "size": 1463,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 1: Is the letter A in GREEN",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 1: Is the letter A in GREEN:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 2",
+                    "fullid": "Task-1.HelloWorldTest[color=GREEN].test4.STEP 2",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=GREEN]",
+                      "test4",
+                      "STEP 2"
+                    ],
+                    "name": "Is the letter B in GREEN",
+                    "starttime": "2025-04-28 22:30:44.143828+10:00",
+                    "stoptime": "2025-04-28 22:30:44.144639+10:00",
+                    "runtime": 0.000811,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 26603,
+                      "begin_lines": 178,
+                      "size": 1463,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 2: Is the letter B in GREEN",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 2: Is the letter B in GREEN:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 3",
+                    "fullid": "Task-1.HelloWorldTest[color=GREEN].test4.STEP 3",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=GREEN]",
+                      "test4",
+                      "STEP 3"
+                    ],
+                    "name": "Is the letter C in GREEN",
+                    "starttime": "2025-04-28 22:30:44.145046+10:00",
+                    "stoptime": "2025-04-28 22:30:44.146253+10:00",
+                    "runtime": 0.001207,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 28066,
+                      "begin_lines": 188,
+                      "size": 1463,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 3: Is the letter C in GREEN",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 3: Is the letter C in GREEN:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 4",
+                    "fullid": "Task-1.HelloWorldTest[color=GREEN].test4.STEP 4",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=GREEN]",
+                      "test4",
+                      "STEP 4"
+                    ],
+                    "name": "Is the letter D in GREEN",
+                    "starttime": "2025-04-28 22:30:44.146983+10:00",
+                    "stoptime": "2025-04-28 22:30:44.147734+10:00",
+                    "runtime": 0.000751,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 29529,
+                      "begin_lines": 198,
+                      "size": 1463,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 4: Is the letter D in GREEN",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 4: Is the letter D in GREEN:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 5",
+                    "fullid": "Task-1.HelloWorldTest[color=GREEN].test4.STEP 5",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=GREEN]",
+                      "test4",
+                      "STEP 5"
+                    ],
+                    "name": "Is the letter E in GREEN",
+                    "starttime": "2025-04-28 22:30:44.148101+10:00",
+                    "stoptime": "2025-04-28 22:30:44.148495+10:00",
+                    "runtime": 0.000394,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 30992,
+                      "begin_lines": 208,
+                      "size": 661,
+                      "size_lines": 4
+                    },
+                    "result": { "value": "passed" },
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  }
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              }
+            ],
+            "health_result": { "value": "passed" },
+            "health_summary": {
+              "passed": 0,
+              "passx": 0,
+              "failed": 0,
+              "errored": 0,
+              "aborted": 0,
+              "blocked": 0,
+              "skipped": 0,
+              "total": 0,
+              "success_rate": 0.0
+            }
+          },
+          {
+            "type": "Testcase",
+            "id": "HelloWorldTest[color=BLUE]",
+            "fullid": "Task-1.HelloWorldTest[color=BLUE]",
+            "idlist": ["Task-1", "HelloWorldTest[color=BLUE]"],
+            "name": "HelloWorldTest[color=BLUE]",
+            "testcase_type": "aetest",
+            "testcase_signature": "6f872f55fd3d5a564e3d99e1230d864a884bd3ee77fcbb19ef1c79b15fd62041",
+            "starttime": "2025-04-28 22:30:44.151252+10:00",
+            "stoptime": "2025-04-28 22:30:44.175647+10:00",
+            "runtime": 0.024395,
+            "xref": {
+              "file": "/home/sushil/pyATS/demo2.py",
+              "line": 14,
+              "source_hash": "6b39d6fd21a3a040034e9a2f2f63b215bfc675a4d5c914c7cba8c446e36bc5e5",
+              "git": {
+                "repo": "github.com/sushil-bhattacharjee/pyATS",
+                "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                "branch": "main",
+                "file": "demo2.py"
+              }
+            },
+            "logs": {
+              "file": "TaskLog.Task-1",
+              "begin": 33218,
+              "begin_lines": 223,
+              "size": 15606,
+              "size_lines": 104
+            },
+            "result": { "value": "failed" },
+            "sections": [
+              {
+                "type": "TestSection",
+                "id": "test1",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test1",
+                "idlist": ["Task-1", "HelloWorldTest[color=BLUE]", "test1"],
+                "name": "test1",
+                "starttime": "2025-04-28 22:30:44.152083+10:00",
+                "stoptime": "2025-04-28 22:30:44.152751+10:00",
+                "runtime": 0.000668,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 16,
+                  "source_hash": "d4a6dc54a3198cfc8bd84bd2a5a39decb69b80e9fd393261fed7d7be3c98020d",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 33740,
+                  "begin_lines": 226,
+                  "size": 750,
+                  "size_lines": 5
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test2",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test2",
+                "idlist": ["Task-1", "HelloWorldTest[color=BLUE]", "test2"],
+                "name": "test2",
+                "starttime": "2025-04-28 22:30:44.153396+10:00",
+                "stoptime": "2025-04-28 22:30:44.154551+10:00",
+                "runtime": 0.001155,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 22,
+                  "source_hash": "9a19cf6f31d8f1057a8396ff805f0489546e2af80bf929d2502d94dfaf51c981",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 34490,
+                  "begin_lines": 231,
+                  "size": 1427,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test2",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 24, in test2\n    assert \"A\" == \"B\"\n           ^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test2:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 24, in test2\n    assert \"A\" == \"B\"\n           ^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=3]",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test3[word_length=3]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=BLUE]",
+                  "test3[word_length=3]"
+                ],
+                "name": "test3[word_length=3]",
+                "starttime": "2025-04-28 22:30:44.155419+10:00",
+                "stoptime": "2025-04-28 22:30:44.157335+10:00",
+                "runtime": 0.001916,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 35917,
+                  "begin_lines": 241,
+                  "size": 1487,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=3]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=3]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=4]",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test3[word_length=4]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=BLUE]",
+                  "test3[word_length=4]"
+                ],
+                "name": "test3[word_length=4]",
+                "starttime": "2025-04-28 22:30:44.158631+10:00",
+                "stoptime": "2025-04-28 22:30:44.159438+10:00",
+                "runtime": 0.000807,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 37404,
+                  "begin_lines": 251,
+                  "size": 657,
+                  "size_lines": 4
+                },
+                "result": { "value": "passed" },
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=5]",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test3[word_length=5]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=BLUE]",
+                  "test3[word_length=5]"
+                ],
+                "name": "test3[word_length=5]",
+                "starttime": "2025-04-28 22:30:44.160283+10:00",
+                "stoptime": "2025-04-28 22:30:44.161597+10:00",
+                "runtime": 0.001314,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 38061,
+                  "begin_lines": 255,
+                  "size": 1487,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=5]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=5]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test3[word_length=6]",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test3[word_length=6]",
+                "idlist": [
+                  "Task-1",
+                  "HelloWorldTest[color=BLUE]",
+                  "test3[word_length=6]"
+                ],
+                "name": "test3[word_length=6]",
+                "starttime": "2025-04-28 22:30:44.162548+10:00",
+                "stoptime": "2025-04-28 22:30:44.163868+10:00",
+                "runtime": 0.00132,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 26,
+                  "source_hash": "0bd97353a83b8aef74e85f62102a8c341ff8bd361cf23849f5a12b2b56437443",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 39548,
+                  "begin_lines": 265,
+                  "size": 1487,
+                  "size_lines": 10
+                },
+                "result": {
+                  "value": "failed",
+                  "reason": "Caught an assertion failure while executing section test3[word_length=6]",
+                  "data": {
+                    "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                  }
+                },
+                "details": [
+                  "Caught an assertion failure while executing section test3[word_length=6]:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 28, in test3\n    assert len(color) == word_length\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              },
+              {
+                "type": "TestSection",
+                "id": "test4",
+                "fullid": "Task-1.HelloWorldTest[color=BLUE].test4",
+                "idlist": ["Task-1", "HelloWorldTest[color=BLUE]", "test4"],
+                "name": "test4",
+                "starttime": "2025-04-28 22:30:44.165219+10:00",
+                "stoptime": "2025-04-28 22:30:44.175274+10:00",
+                "runtime": 0.010055,
+                "xref": {
+                  "file": "/home/sushil/pyATS/demo2.py",
+                  "line": 30,
+                  "source_hash": "e8444d2c4c65882cad448b458547300246b737337d4e45fa5a7e3165e79a471f",
+                  "git": {
+                    "repo": "github.com/sushil-bhattacharjee/pyATS",
+                    "commit": "d23848480634864d636f782fc296e0dbb4beacae",
+                    "branch": "main",
+                    "file": "demo2.py"
+                  }
+                },
+                "logs": {
+                  "file": "TaskLog.Task-1",
+                  "begin": 41035,
+                  "begin_lines": 275,
+                  "size": 7647,
+                  "size_lines": 51
+                },
+                "result": { "value": "failed" },
+                "sections": [
+                  {
+                    "type": "Step",
+                    "id": "STEP 1",
+                    "fullid": "Task-1.HelloWorldTest[color=BLUE].test4.STEP 1",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=BLUE]",
+                      "test4",
+                      "STEP 1"
+                    ],
+                    "name": "Is the letter A in BLUE",
+                    "starttime": "2025-04-28 22:30:44.166478+10:00",
+                    "stoptime": "2025-04-28 22:30:44.167768+10:00",
+                    "runtime": 0.00129,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 41557,
+                      "begin_lines": 278,
+                      "size": 1461,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 1: Is the letter A in BLUE",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 1: Is the letter A in BLUE:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 2",
+                    "fullid": "Task-1.HelloWorldTest[color=BLUE].test4.STEP 2",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=BLUE]",
+                      "test4",
+                      "STEP 2"
+                    ],
+                    "name": "Is the letter B in BLUE",
+                    "starttime": "2025-04-28 22:30:44.168668+10:00",
+                    "stoptime": "2025-04-28 22:30:44.169299+10:00",
+                    "runtime": 0.000631,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 43018,
+                      "begin_lines": 288,
+                      "size": 660,
+                      "size_lines": 4
+                    },
+                    "result": { "value": "passed" },
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 3",
+                    "fullid": "Task-1.HelloWorldTest[color=BLUE].test4.STEP 3",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=BLUE]",
+                      "test4",
+                      "STEP 3"
+                    ],
+                    "name": "Is the letter C in BLUE",
+                    "starttime": "2025-04-28 22:30:44.170264+10:00",
+                    "stoptime": "2025-04-28 22:30:44.171530+10:00",
+                    "runtime": 0.001266,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 43678,
+                      "begin_lines": 292,
+                      "size": 1461,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 3: Is the letter C in BLUE",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 3: Is the letter C in BLUE:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 4",
+                    "fullid": "Task-1.HelloWorldTest[color=BLUE].test4.STEP 4",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=BLUE]",
+                      "test4",
+                      "STEP 4"
+                    ],
+                    "name": "Is the letter D in BLUE",
+                    "starttime": "2025-04-28 22:30:44.172313+10:00",
+                    "stoptime": "2025-04-28 22:30:44.173383+10:00",
+                    "runtime": 0.00107,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 45139,
+                      "begin_lines": 302,
+                      "size": 1461,
+                      "size_lines": 10
+                    },
+                    "result": {
+                      "value": "failed",
+                      "reason": "Caught an assertion failure while executing STEP 4: Is the letter D in BLUE",
+                      "data": {
+                        "traceback": "Traceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                      }
+                    },
+                    "details": [
+                      "Caught an assertion failure while executing STEP 4: Is the letter D in BLUE:\nTraceback (most recent call last):\n  File \"/home/sushil/pyATS/demo2.py\", line 34, in test4\n    assert letter in color\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+                    ],
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  },
+                  {
+                    "type": "Step",
+                    "id": "STEP 5",
+                    "fullid": "Task-1.HelloWorldTest[color=BLUE].test4.STEP 5",
+                    "idlist": [
+                      "Task-1",
+                      "HelloWorldTest[color=BLUE]",
+                      "test4",
+                      "STEP 5"
+                    ],
+                    "name": "Is the letter E in BLUE",
+                    "starttime": "2025-04-28 22:30:44.173892+10:00",
+                    "stoptime": "2025-04-28 22:30:44.174306+10:00",
+                    "runtime": 0.000414,
+                    "xref": {
+                      "file": "/usr/lib/python3.12/multiprocessing/process.py",
+                      "line": 314
+                    },
+                    "logs": {
+                      "file": "TaskLog.Task-1",
+                      "begin": 46600,
+                      "begin_lines": 312,
+                      "size": 660,
+                      "size_lines": 4
+                    },
+                    "result": { "value": "passed" },
+                    "extra": { "continue_": true },
+                    "health_result": { "value": "passed" },
+                    "health_summary": {
+                      "passed": 0,
+                      "passx": 0,
+                      "failed": 0,
+                      "errored": 0,
+                      "aborted": 0,
+                      "blocked": 0,
+                      "skipped": 0,
+                      "total": 0,
+                      "success_rate": 0.0
+                    }
+                  }
+                ],
+                "health_result": { "value": "passed" },
+                "health_summary": {
+                  "passed": 0,
+                  "passx": 0,
+                  "failed": 0,
+                  "errored": 0,
+                  "aborted": 0,
+                  "blocked": 0,
+                  "skipped": 0,
+                  "total": 0,
+                  "success_rate": 0.0
+                }
+              }
+            ],
+            "health_result": { "value": "passed" },
+            "health_summary": {
+              "passed": 0,
+              "passx": 0,
+              "failed": 0,
+              "errored": 0,
+              "aborted": 0,
+              "blocked": 0,
+              "skipped": 0,
+              "total": 0,
+              "success_rate": 0.0
+            }
+          }
+        ],
+        "health_result": { "value": "passed" },
+        "health_summary": {
+          "passed": 0,
+          "passx": 0,
+          "failed": 0,
+          "errored": 0,
+          "aborted": 0,
+          "blocked": 0,
+          "skipped": 0,
+          "total": 0,
+          "success_rate": 0.0
+        }
+      }
+    ],
+    "health_result": { "value": "passed" },
+    "health_summary": {
+      "passed": 0,
+      "passx": 0,
+      "failed": 0,
+      "errored": 0,
+      "aborted": 0,
+      "blocked": 0,
+      "skipped": 0,
+      "total": 0,
+      "success_rate": 0.0
+    }
+  }
+}

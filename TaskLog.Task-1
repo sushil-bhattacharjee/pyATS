@@ -1,0 +1,327 @@
+3: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=3.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+4: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=3.2/3][pid=716870][pname=Task-1]: |                            Starting common setup                             |
+5: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=3.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+6: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=6.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+7: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=6.2/3][pid=716870][pname=Task-1]: |                          Starting subsection setup1                          |
+8: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=6.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+9: sushil: 2025-04-28T22:30:44: %SCRIPT-6-INFO: %[pid=716870][pname=Task-1]: Welcome to hiTech007 Automation
+10: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of subsection setup1 is => PASSED
+11: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of common setup is => PASSED
+12: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=12.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+13: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=12.2/3][pid=716870][pname=Task-1]: |                 Starting testcase HelloWorldTest[color=RED]                  |
+14: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=12.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+15: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=15.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+16: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=15.2/3][pid=716870][pname=Task-1]: |                            Starting section test1                            |
+17: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=15.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+18: sushil: 2025-04-28T22:30:44: %SCRIPT-6-INFO: %[pid=716870][pname=Task-1]: Hello RED world from Test 1
+19: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test1 is => PASSED
+20: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=20.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+21: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=20.2/3][pid=716870][pname=Task-1]: |                            Starting section test2                            |
+22: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=20.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+23: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=23.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test2:
+24: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=23.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+25: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=23.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 24, in test2
+26: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=23.4/6][pid=716870][pname=Task-1]:     assert "A" == "B"
+27: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=23.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^
+28: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=23.6/6][pid=716870][pname=Task-1]: AssertionError
+29: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test2 is => FAILED
+30: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=30.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+31: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=30.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=3]                     |
+32: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=30.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+33: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=3] is => PASSED
+34: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=34.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+35: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=34.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=4]                     |
+36: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=34.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+37: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=37.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=4]:
+38: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=37.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+39: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=37.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+40: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=37.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+41: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=37.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+42: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=37.6/6][pid=716870][pname=Task-1]: AssertionError
+43: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=4] is => FAILED
+44: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=44.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+45: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=44.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=5]                     |
+46: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=44.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+47: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=47.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=5]:
+48: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=47.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+49: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=47.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+50: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=47.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+51: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=47.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+52: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=47.6/6][pid=716870][pname=Task-1]: AssertionError
+53: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=5] is => FAILED
+54: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=54.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+55: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=54.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=6]                     |
+56: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=54.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+57: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=57.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=6]:
+58: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=57.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+59: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=57.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+60: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=57.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+61: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=57.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+62: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=57.6/6][pid=716870][pname=Task-1]: AssertionError
+63: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=6] is => FAILED
+64: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=64.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+65: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=64.2/3][pid=716870][pname=Task-1]: |                            Starting section test4                            |
+66: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=64.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+67: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=67.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+68: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=67.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 1: Is the letter A in RED                    :
+69: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=67.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+70: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=70.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 1: Is the letter A in RED:
+71: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=70.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+72: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=70.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+73: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=70.4/6][pid=716870][pname=Task-1]:     assert letter in color
+74: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=70.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+75: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=70.6/6][pid=716870][pname=Task-1]: AssertionError
+76: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 1: Is the letter A in RED is => FAILED
+77: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=77.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+78: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=77.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 2: Is the letter B in RED                    :
+79: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=77.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+80: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=80.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 2: Is the letter B in RED:
+81: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=80.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+82: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=80.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+83: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=80.4/6][pid=716870][pname=Task-1]:     assert letter in color
+84: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=80.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+85: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=80.6/6][pid=716870][pname=Task-1]: AssertionError
+86: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 2: Is the letter B in RED is => FAILED
+87: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=87.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+88: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=87.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 3: Is the letter C in RED                    :
+89: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=87.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+90: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=90.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 3: Is the letter C in RED:
+91: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=90.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+92: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=90.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+93: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=90.4/6][pid=716870][pname=Task-1]:     assert letter in color
+94: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=90.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+95: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=90.6/6][pid=716870][pname=Task-1]: AssertionError
+96: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 3: Is the letter C in RED is => FAILED
+97: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=97.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+98: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=97.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 4: Is the letter D in RED                    :
+99: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=97.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+100: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 4: Is the letter D in RED is => PASSED
+101: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=101.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+102: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=101.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 5: Is the letter E in RED                    :
+103: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=101.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+104: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 5: Is the letter E in RED is => PASSED
+105: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=105.1/3][pid=716870][pname=Task-1]: +..........................................................+
+106: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=105.2/3][pid=716870][pname=Task-1]: :                       STEPS Report                       :
+107: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=105.3/3][pid=716870][pname=Task-1]: +..........................................................+
+108: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 1 - Is the letter A in RED                   Failed    
+109: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 2 - Is the letter B in RED                   Failed    
+110: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 3 - Is the letter C in RED                   Failed    
+111: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 4 - Is the letter D in RED                   Passed    
+112: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 5 - Is the letter E in RED                   Passed    
+113: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: ............................................................
+114: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test4 is => FAILED
+115: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of testcase HelloWorldTest[color=RED] is => FAILED
+116: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=116.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+117: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=116.2/3][pid=716870][pname=Task-1]: |                Starting testcase HelloWorldTest[color=GREEN]                 |
+118: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=116.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+119: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=119.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+120: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=119.2/3][pid=716870][pname=Task-1]: |                            Starting section test1                            |
+121: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=119.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+122: sushil: 2025-04-28T22:30:44: %SCRIPT-6-INFO: %[pid=716870][pname=Task-1]: Hello GREEN world from Test 1
+123: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test1 is => PASSED
+124: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=124.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+125: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=124.2/3][pid=716870][pname=Task-1]: |                            Starting section test2                            |
+126: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=124.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+127: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=127.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test2:
+128: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=127.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+129: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=127.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 24, in test2
+130: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=127.4/6][pid=716870][pname=Task-1]:     assert "A" == "B"
+131: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=127.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^
+132: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=127.6/6][pid=716870][pname=Task-1]: AssertionError
+133: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test2 is => FAILED
+134: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=134.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+135: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=134.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=3]                     |
+136: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=134.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+137: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=137.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=3]:
+138: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=137.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+139: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=137.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+140: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=137.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+141: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=137.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+142: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=137.6/6][pid=716870][pname=Task-1]: AssertionError
+143: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=3] is => FAILED
+144: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=144.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+145: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=144.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=4]                     |
+146: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=144.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+147: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=147.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=4]:
+148: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=147.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+149: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=147.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+150: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=147.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+151: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=147.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+152: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=147.6/6][pid=716870][pname=Task-1]: AssertionError
+153: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=4] is => FAILED
+154: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=154.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+155: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=154.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=5]                     |
+156: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=154.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+157: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=5] is => PASSED
+158: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=158.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+159: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=158.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=6]                     |
+160: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=158.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+161: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=161.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=6]:
+162: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=161.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+163: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=161.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+164: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=161.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+165: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=161.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+166: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=161.6/6][pid=716870][pname=Task-1]: AssertionError
+167: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=6] is => FAILED
+168: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=168.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+169: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=168.2/3][pid=716870][pname=Task-1]: |                            Starting section test4                            |
+170: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=168.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+171: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=171.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+172: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=171.2/3][pid=716870][pname=Task-1]: :                  Starting STEP 1: Is the letter A in GREEN                   :
+173: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=171.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+174: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=174.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 1: Is the letter A in GREEN:
+175: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=174.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+176: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=174.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+177: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=174.4/6][pid=716870][pname=Task-1]:     assert letter in color
+178: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=174.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+179: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=174.6/6][pid=716870][pname=Task-1]: AssertionError
+180: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 1: Is the letter A in GREEN is => FAILED
+181: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=181.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+182: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=181.2/3][pid=716870][pname=Task-1]: :                  Starting STEP 2: Is the letter B in GREEN                   :
+183: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=181.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+184: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=184.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 2: Is the letter B in GREEN:
+185: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=184.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+186: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=184.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+187: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=184.4/6][pid=716870][pname=Task-1]:     assert letter in color
+188: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=184.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+189: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=184.6/6][pid=716870][pname=Task-1]: AssertionError
+190: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 2: Is the letter B in GREEN is => FAILED
+191: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=191.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+192: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=191.2/3][pid=716870][pname=Task-1]: :                  Starting STEP 3: Is the letter C in GREEN                   :
+193: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=191.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+194: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=194.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 3: Is the letter C in GREEN:
+195: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=194.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+196: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=194.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+197: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=194.4/6][pid=716870][pname=Task-1]:     assert letter in color
+198: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=194.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+199: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=194.6/6][pid=716870][pname=Task-1]: AssertionError
+200: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 3: Is the letter C in GREEN is => FAILED
+201: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=201.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+202: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=201.2/3][pid=716870][pname=Task-1]: :                  Starting STEP 4: Is the letter D in GREEN                   :
+203: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=201.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+204: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=204.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 4: Is the letter D in GREEN:
+205: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=204.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+206: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=204.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+207: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=204.4/6][pid=716870][pname=Task-1]:     assert letter in color
+208: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=204.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+209: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=204.6/6][pid=716870][pname=Task-1]: AssertionError
+210: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 4: Is the letter D in GREEN is => FAILED
+211: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=211.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+212: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=211.2/3][pid=716870][pname=Task-1]: :                  Starting STEP 5: Is the letter E in GREEN                   :
+213: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=211.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+214: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 5: Is the letter E in GREEN is => PASSED
+215: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=215.1/3][pid=716870][pname=Task-1]: +..........................................................+
+216: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=215.2/3][pid=716870][pname=Task-1]: :                       STEPS Report                       :
+217: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=215.3/3][pid=716870][pname=Task-1]: +..........................................................+
+218: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 1 - Is the letter A in GREEN                 Failed    
+219: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 2 - Is the letter B in GREEN                 Failed    
+220: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 3 - Is the letter C in GREEN                 Failed    
+221: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 4 - Is the letter D in GREEN                 Failed    
+222: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 5 - Is the letter E in GREEN                 Passed    
+223: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: ............................................................
+224: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test4 is => FAILED
+225: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of testcase HelloWorldTest[color=GREEN] is => FAILED
+226: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=226.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+227: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=226.2/3][pid=716870][pname=Task-1]: |                 Starting testcase HelloWorldTest[color=BLUE]                 |
+228: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=226.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+229: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=229.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+230: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=229.2/3][pid=716870][pname=Task-1]: |                            Starting section test1                            |
+231: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=229.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+232: sushil: 2025-04-28T22:30:44: %SCRIPT-6-INFO: %[pid=716870][pname=Task-1]: Hello BLUE world from Test 1
+233: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test1 is => PASSED
+234: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=234.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+235: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=234.2/3][pid=716870][pname=Task-1]: |                            Starting section test2                            |
+236: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=234.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+237: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=237.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test2:
+238: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=237.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+239: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=237.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 24, in test2
+240: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=237.4/6][pid=716870][pname=Task-1]:     assert "A" == "B"
+241: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=237.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^
+242: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=237.6/6][pid=716870][pname=Task-1]: AssertionError
+243: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test2 is => FAILED
+244: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=244.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+245: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=244.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=3]                     |
+246: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=244.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+247: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=247.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=3]:
+248: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=247.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+249: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=247.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+250: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=247.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+251: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=247.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+252: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=247.6/6][pid=716870][pname=Task-1]: AssertionError
+253: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=3] is => FAILED
+254: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=254.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+255: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=254.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=4]                     |
+256: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=254.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+257: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=4] is => PASSED
+258: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=258.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+259: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=258.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=5]                     |
+260: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=258.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+261: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=261.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=5]:
+262: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=261.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+263: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=261.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+264: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=261.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+265: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=261.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+266: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=261.6/6][pid=716870][pname=Task-1]: AssertionError
+267: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=5] is => FAILED
+268: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=268.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+269: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=268.2/3][pid=716870][pname=Task-1]: |                    Starting section test3[word_length=6]                     |
+270: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=268.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+271: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=271.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing section test3[word_length=6]:
+272: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=271.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+273: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=271.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 28, in test3
+274: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=271.4/6][pid=716870][pname=Task-1]:     assert len(color) == word_length
+275: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=271.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+276: sushil: 2025-04-28T22:30:44: %AETEST-4-WARNING: %[part=271.6/6][pid=716870][pname=Task-1]: AssertionError
+277: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test3[word_length=6] is => FAILED
+278: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=278.1/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+279: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=278.2/3][pid=716870][pname=Task-1]: |                            Starting section test4                            |
+280: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=278.3/3][pid=716870][pname=Task-1]: +------------------------------------------------------------------------------+
+281: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=281.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+282: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=281.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 1: Is the letter A in BLUE                   :
+283: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=281.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+284: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=284.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 1: Is the letter A in BLUE:
+285: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=284.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+286: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=284.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+287: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=284.4/6][pid=716870][pname=Task-1]:     assert letter in color
+288: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=284.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+289: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=284.6/6][pid=716870][pname=Task-1]: AssertionError
+290: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 1: Is the letter A in BLUE is => FAILED
+291: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=291.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+292: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=291.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 2: Is the letter B in BLUE                   :
+293: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=291.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+294: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 2: Is the letter B in BLUE is => PASSED
+295: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=295.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+296: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=295.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 3: Is the letter C in BLUE                   :
+297: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=295.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+298: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=298.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 3: Is the letter C in BLUE:
+299: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=298.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+300: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=298.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+301: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=298.4/6][pid=716870][pname=Task-1]:     assert letter in color
+302: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=298.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+303: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=298.6/6][pid=716870][pname=Task-1]: AssertionError
+304: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 3: Is the letter C in BLUE is => FAILED
+305: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=305.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+306: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=305.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 4: Is the letter D in BLUE                   :
+307: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=305.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+308: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=308.1/6][pid=716870][pname=Task-1]: Caught an assertion failure while executing STEP 4: Is the letter D in BLUE:
+309: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=308.2/6][pid=716870][pname=Task-1]: Traceback (most recent call last):
+310: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=308.3/6][pid=716870][pname=Task-1]:   File "/home/sushil/pyATS/demo2.py", line 34, in test4
+311: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=308.4/6][pid=716870][pname=Task-1]:     assert letter in color
+312: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=308.5/6][pid=716870][pname=Task-1]:            ^^^^^^^^^^^^^^^
+313: sushil: 2025-04-28T22:30:44: %AETEST-3-ERROR: %[part=308.6/6][pid=716870][pname=Task-1]: AssertionError
+314: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 4: Is the letter D in BLUE is => FAILED
+315: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=315.1/3][pid=716870][pname=Task-1]: +..............................................................................+
+316: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=315.2/3][pid=716870][pname=Task-1]: :                   Starting STEP 5: Is the letter E in BLUE                   :
+317: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=315.3/3][pid=716870][pname=Task-1]: +..............................................................................+
+318: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of STEP 5: Is the letter E in BLUE is => PASSED
+319: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=319.1/3][pid=716870][pname=Task-1]: +..........................................................+
+320: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=319.2/3][pid=716870][pname=Task-1]: :                       STEPS Report                       :
+321: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[part=319.3/3][pid=716870][pname=Task-1]: +..........................................................+
+322: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 1 - Is the letter A in BLUE                  Failed    
+323: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 2 - Is the letter B in BLUE                  Passed    
+324: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 3 - Is the letter C in BLUE                  Failed    
+325: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 4 - Is the letter D in BLUE                  Failed    
+326: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: STEP 5 - Is the letter E in BLUE                  Passed    
+327: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: ............................................................
+328: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of section test4 is => FAILED
+329: sushil: 2025-04-28T22:30:44: %AETEST-6-INFO: %[pid=716870][pname=Task-1]: The result of testcase HelloWorldTest[color=BLUE] is => FAILED

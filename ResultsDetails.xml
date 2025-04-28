@@ -1,0 +1,947 @@
+<?xml version="1.0" ?>
+<aereport xmlns="http://wwwin-ats.cisco.com/xml/schema/aereport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="http://wwwin-ats.cisco.com/xml/schema/aereport.xsd">
+  <testsuite>
+    <starttime>2025-04-28T22:30:44</starttime>
+    <initinfo>
+      <name>demo-job</name>
+      <params>
+        <cli>/home/sushil/pyATS/.VpyATS/bin/pyats run job demo-job.py --testbed-file testbed.yml</cli>
+        <mailto/>
+        <report>
+          <type/>
+          <sort>0</sort>
+          <outofrange>0</outofrange>
+          <uniquesuites>0</uniquesuites>
+          <count_common_result_summary>1</count_common_result_summary>
+          <sem/>
+        </report>
+        <rerun>0</rerun>
+        <cleantype>easyclean</cleantype>
+        <uniquetid>0</uniquetid>
+        <max>
+          <errors>10</errors>
+          <jobs>-1</jobs>
+        </max>
+        <reason/>
+        <tidRange/>
+      </params>
+      <jobid>demo-job.2025Apr28_22:30:41.544605</jobid>
+      <ats>
+        <path>/home/sushil/pyATS/.VpyATS</path>
+        <version>25.3</version>
+      </ats>
+      <CONFIG/>
+      <host>sushil</host>
+      <owner/>
+      <submitter>sushil</submitter>
+      <user>sushil</user>
+      <topology/>
+      <logfile begin="0" size="-1"/>
+      <tbautoselect/>
+      <release/>
+      <image/>
+      <testbed>testbed</testbed>
+    </initinfo>
+    <jobexecution>
+      <starttime>2025-04-28T22:30:44</starttime>
+      <runinfo/>
+      <testscript>
+        <starttime>2025-04-28T22:30:44</starttime>
+        <initinfo>
+          <script>
+            <name>demo2.py</name>
+            <path>/home/sushil/pyATS</path>
+          </script>
+          <pargs/>
+          <taskid>Task-1</taskid>
+          <description/>
+          <logfile begin="0" size="-1">TaskLog.Task-1</logfile>
+        </initinfo>
+        <runinfo/>
+        <commonSetup>
+          <starttime>2025-04-28T22:30:44</starttime>
+          <name>commonSetup</name>
+          <description/>
+          <xref>
+            <file>/home/sushil/pyATS/demo2.py</file>
+            <line>8</line>
+          </xref>
+          <logfile begin="0" size="1370">TaskLog.Task-1</logfile>
+          <runinfo/>
+          <result mode="auto">passed</result>
+          <stoptime>2025-04-28T22:30:44</stoptime>
+          <runtime>00:00:00</runtime>
+          <subSection>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>9</line>
+            </xref>
+            <id name="setup1" md5="">
+              <tc>setup1</tc>
+            </id>
+            <name>setup1</name>
+            <description/>
+            <logfile begin="510" size="742">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+            <extra>{}</extra>
+          </subSection>
+        </commonSetup>
+        <testcase>
+          <starttime>2025-04-28T22:30:44</starttime>
+          <initinfo>
+            <id name="HelloWorldTest[color=RED]" md5="">
+              <tc>HelloWorldTest[color=RED]</tc>
+            </id>
+            <name>HelloWorldTest[color=RED]</name>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>14</line>
+            </xref>
+            <description/>
+            <swversion>None</swversion>
+            <hwversion>None</hwversion>
+            <fwversion>None</fwversion>
+            <tstversion>None</tstversion>
+            <logfile begin="1370" size="15430">TaskLog.Task-1</logfile>
+          </initinfo>
+          <runinfo/>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test1</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>16</line>
+            </xref>
+            <logfile begin="1886" size="741">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test2</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>22</line>
+            </xref>
+            <logfile begin="2627" size="1408">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test2:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 24, in test2
+    assert &quot;A&quot; == &quot;B&quot;
+           ^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=3]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="4035" size="650">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=4]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="4685" size="1468">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=4]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=5]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="6153" size="1468">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=5]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=6]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="7621" size="1468">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=6]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test4</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>30</line>
+            </xref>
+            <logfile begin="9089" size="7570">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+            <step>
+              <name>Is the letter A in RED</name>
+              <id>STEP 1</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="9605" size="1440">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 1: Is the letter A in RED:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter B in RED</name>
+              <id>STEP 2</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="11045" size="1440">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 2: Is the letter B in RED:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter C in RED</name>
+              <id>STEP 3</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="12485" size="1440">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 3: Is the letter C in RED:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter D in RED</name>
+              <id>STEP 4</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="13925" size="653">TaskLog.Task-1</logfile>
+              <runinfo/>
+              <result mode="auto">passed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter E in RED</name>
+              <id>STEP 5</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="14578" size="659">TaskLog.Task-1</logfile>
+              <runinfo/>
+              <result mode="auto">passed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+          </section>
+          <result mode="auto">failed</result>
+          <stoptime>2025-04-28T22:30:44</stoptime>
+          <runtime>00:00:00</runtime>
+        </testcase>
+        <testcase>
+          <starttime>2025-04-28T22:30:44</starttime>
+          <initinfo>
+            <id name="HelloWorldTest[color=GREEN]" md5="">
+              <tc>HelloWorldTest[color=GREEN]</tc>
+            </id>
+            <name>HelloWorldTest[color=GREEN]</name>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>14</line>
+            </xref>
+            <description/>
+            <swversion>None</swversion>
+            <hwversion>None</hwversion>
+            <fwversion>None</fwversion>
+            <tstversion>None</tstversion>
+            <logfile begin="16800" size="16418">TaskLog.Task-1</logfile>
+          </initinfo>
+          <runinfo/>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test1</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>16</line>
+            </xref>
+            <logfile begin="17322" size="751">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test2</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>22</line>
+            </xref>
+            <logfile begin="18073" size="1427">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test2:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 24, in test2
+    assert &quot;A&quot; == &quot;B&quot;
+           ^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=3]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="19500" size="1487">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=3]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=4]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="20987" size="1487">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=4]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=5]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="22474" size="657">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=6]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="23131" size="1487">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=6]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test4</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>30</line>
+            </xref>
+            <logfile begin="24618" size="8457">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+            <step>
+              <name>Is the letter A in GREEN</name>
+              <id>STEP 1</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="25140" size="1463">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 1: Is the letter A in GREEN:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter B in GREEN</name>
+              <id>STEP 2</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="26603" size="1463">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 2: Is the letter B in GREEN:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter C in GREEN</name>
+              <id>STEP 3</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="28066" size="1463">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 3: Is the letter C in GREEN:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter D in GREEN</name>
+              <id>STEP 4</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="29529" size="1463">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 4: Is the letter D in GREEN:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter E in GREEN</name>
+              <id>STEP 5</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="30992" size="661">TaskLog.Task-1</logfile>
+              <runinfo/>
+              <result mode="auto">passed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+          </section>
+          <result mode="auto">failed</result>
+          <stoptime>2025-04-28T22:30:44</stoptime>
+          <runtime>00:00:00</runtime>
+        </testcase>
+        <testcase>
+          <starttime>2025-04-28T22:30:44</starttime>
+          <initinfo>
+            <id name="HelloWorldTest[color=BLUE]" md5="">
+              <tc>HelloWorldTest[color=BLUE]</tc>
+            </id>
+            <name>HelloWorldTest[color=BLUE]</name>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>14</line>
+            </xref>
+            <description/>
+            <swversion>None</swversion>
+            <hwversion>None</hwversion>
+            <fwversion>None</fwversion>
+            <tstversion>None</tstversion>
+            <logfile begin="33218" size="15606">TaskLog.Task-1</logfile>
+          </initinfo>
+          <runinfo/>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test1</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>16</line>
+            </xref>
+            <logfile begin="33740" size="750">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test2</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>22</line>
+            </xref>
+            <logfile begin="34490" size="1427">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test2:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 24, in test2
+    assert &quot;A&quot; == &quot;B&quot;
+           ^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=3]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="35917" size="1487">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=3]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=4]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="37404" size="657">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">passed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=5]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="38061" size="1487">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=5]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test3[word_length=6]</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>26</line>
+            </xref>
+            <logfile begin="39548" size="1487">TaskLog.Task-1</logfile>
+            <runinfo>
+              <diag>Caught an assertion failure while executing section test3[word_length=6]:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 28, in test3
+    assert len(color) == word_length
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+            </runinfo>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+          </section>
+          <section>
+            <starttime>2025-04-28T22:30:44</starttime>
+            <name>test4</name>
+            <description/>
+            <xref>
+              <file>/home/sushil/pyATS/demo2.py</file>
+              <line>30</line>
+            </xref>
+            <logfile begin="41035" size="7647">TaskLog.Task-1</logfile>
+            <runinfo/>
+            <result mode="auto">failed</result>
+            <stoptime>2025-04-28T22:30:44</stoptime>
+            <runtime>00:00:00</runtime>
+            <step>
+              <name>Is the letter A in BLUE</name>
+              <id>STEP 1</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="41557" size="1461">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 1: Is the letter A in BLUE:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter B in BLUE</name>
+              <id>STEP 2</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="43018" size="660">TaskLog.Task-1</logfile>
+              <runinfo/>
+              <result mode="auto">passed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter C in BLUE</name>
+              <id>STEP 3</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="43678" size="1461">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 3: Is the letter C in BLUE:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter D in BLUE</name>
+              <id>STEP 4</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="45139" size="1461">TaskLog.Task-1</logfile>
+              <runinfo>
+                <diag>Caught an assertion failure while executing STEP 4: Is the letter D in BLUE:
+Traceback (most recent call last):
+  File &quot;/home/sushil/pyATS/demo2.py&quot;, line 34, in test4
+    assert letter in color
+           ^^^^^^^^^^^^^^^
+AssertionError
+</diag>
+              </runinfo>
+              <result mode="auto">failed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+            <step>
+              <name>Is the letter E in BLUE</name>
+              <id>STEP 5</id>
+              <index>0</index>
+              <description/>
+              <continue_>1</continue_>
+              <starttime>2025-04-28T22:30:44</starttime>
+              <xref>
+                <file>/usr/lib/python3.12/multiprocessing/process.py</file>
+                <line>314</line>
+              </xref>
+              <logfile begin="46600" size="660">TaskLog.Task-1</logfile>
+              <runinfo/>
+              <result mode="auto">passed</result>
+              <stoptime>2025-04-28T22:30:44</stoptime>
+              <runtime>00:00:00</runtime>
+              <extra>{}</extra>
+            </step>
+          </section>
+          <result mode="auto">failed</result>
+          <stoptime>2025-04-28T22:30:44</stoptime>
+          <runtime>00:00:00</runtime>
+        </testcase>
+        <stoptime>2025-04-28T22:30:44</stoptime>
+        <runtime>00:00:00</runtime>
+        <summary>
+          <abort>0</abort>
+          <pass>1</pass>
+          <passx>0</passx>
+          <fail>3</fail>
+          <block>0</block>
+          <skip>0</skip>
+          <error>0</error>
+          <never_ran>0</never_ran>
+          <unknown>0</unknown>
+          <total>4</total>
+          <success_rate>25.0</success_rate>
+        </summary>
+      </testscript>
+      <result mode="auto"/>
+      <stoptime>2025-04-28T22:30:44</stoptime>
+      <runtime>00:00:00</runtime>
+    </jobexecution>
+    <tims bgPost="False">
+      <dnsname/>
+      <post>
+        <status/>
+        <cmd/>
+      </post>
+    </tims>
+    <runinfo/>
+    <archivefile>/home/sushil/.pyats/archive/25-04/demo-job.2025Apr28_22:30:41.544605.zip</archivefile>
+    <stoptime>2025-04-28T22:30:44</stoptime>
+    <runtime>00:00:00</runtime>
+    <summary>
+      <abort>0</abort>
+      <pass>1</pass>
+      <passx>0</passx>
+      <fail>3</fail>
+      <block>0</block>
+      <skip>0</skip>
+      <error>0</error>
+      <never_ran>0</never_ran>
+      <unknown>0</unknown>
+      <total>4</total>
+      <success_rate>25.0</success_rate>
+    </summary>
+  </testsuite>
+</aereport>
